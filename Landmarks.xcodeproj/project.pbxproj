@@ -11,6 +11,8 @@
 		B90076B12BB6C77E00AAFB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90076B02BB6C77E00AAFB6A /* ContentView.swift */; };
 		B90076B32BB6C78000AAFB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90076B22BB6C78000AAFB6A /* Assets.xcassets */; };
 		B90076B62BB6C78000AAFB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90076B52BB6C78000AAFB6A /* Preview Assets.xcassets */; };
+		B9334B582BB6CFC3001BB57B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9334B572BB6CFC2001BB57B /* CircleImage.swift */; };
+		B9334B5A2BB6D0C7001BB57B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9334B592BB6D0C6001BB57B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B90076B02BB6C77E00AAFB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B90076B22BB6C78000AAFB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90076B52BB6C78000AAFB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9334B572BB6CFC2001BB57B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B9334B592BB6D0C6001BB57B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				B90076AE2BB6C77E00AAFB6A /* LandmarksApp.swift */,
 				B90076B02BB6C77E00AAFB6A /* ContentView.swift */,
 				B90076B22BB6C78000AAFB6A /* Assets.xcassets */,
+				B9334B572BB6CFC2001BB57B /* CircleImage.swift */,
+				B9334B592BB6D0C6001BB57B /* MapView.swift */,
 				B90076B42BB6C78000AAFB6A /* Preview Content */,
 			);
 			path = Landmarks;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90076B12BB6C77E00AAFB6A /* ContentView.swift in Sources */,
+				B9334B5A2BB6D0C7001BB57B /* MapView.swift in Sources */,
 				B90076AF2BB6C77E00AAFB6A /* LandmarksApp.swift in Sources */,
+				B9334B582BB6CFC3001BB57B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +288,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.landmarks-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,12 +318,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.landmarks-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
